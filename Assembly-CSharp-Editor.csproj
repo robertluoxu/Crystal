@@ -37,6 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherSnow_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherCloudy_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherSun_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherController_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\ToD_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherRain_Editor.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\Editor\WeatherThunderstorm_Editor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
