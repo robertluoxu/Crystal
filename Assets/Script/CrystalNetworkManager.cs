@@ -8,9 +8,6 @@ public class CrystalNetworkManager :  NetworkManager
 {
     private Role chooseRole;
 
-    public string address = "localhost";
-
-
     public override void OnStartServer()
     {
         base.OnStartServer();
@@ -19,8 +16,6 @@ public class CrystalNetworkManager :  NetworkManager
 
     public override void OnClientConnect(NetworkConnection conn)
     {
-        base.OnClientConnect(conn);
-
         //send the message here
         //the message should be defined above this class in a NetworkMessage
         CharacterCreatorMessage characterMessage = new CharacterCreatorMessage
@@ -29,25 +24,33 @@ public class CrystalNetworkManager :  NetworkManager
             role = chooseRole
         };
         NetworkClient.Send(characterMessage);
+
+        base.OnClientConnect(conn);
     }
 
-    void OnCreateCharacter(NetworkConnection conn, CharacterCreatorMessage message)
+    public override void OnServerAddPlayer(NetworkConnectionToClient conn)
+    {
+        base.OnServerAddPlayer(conn);
+    }
+
+    void OnCreateCharacter(NetworkConnectionToClient conn, CharacterCreatorMessage message)
     {
         GameObject gameObject=null;
         switch(message.role) {
             case Role.Police:
                 gameObject = Instantiate(NetworkManager.singleton.spawnPrefabs[0]);
+                gameObject.transform.position = new Vector3(-299.06f,69.96f,52.43f);
                 break;
             case Role.Engineer:
                 gameObject = Instantiate(NetworkManager.singleton.spawnPrefabs[1]);
+                gameObject.transform.position = new Vector3(-364.31f,71.05f,54.8f);
                 break;
             case Role.Drector:
                 gameObject = Instantiate(NetworkManager.singleton.spawnPrefabs[2]);
                 break;
         }
-        NetworkServer.AddPlayerForConnection((NetworkConnectionToClient)conn, gameObject);
+        NetworkServer.AddPlayerForConnection(conn, gameObject);
     }
-
 
     void OnGUI() {
       if(PlayerControl.localPlayerTransform == null){
@@ -57,19 +60,16 @@ public class CrystalNetworkManager :  NetworkManager
         }
         if (GUILayout.Button("警察"))
         {
-            this.networkAddress = this.address;
             chooseRole = Role.Police;
             this.StartClient();
         }
         if (GUILayout.Button("工程师"))
         {
-            this.networkAddress = this.address;
             chooseRole = Role.Engineer;
             this.StartClient();
         }
         if (GUILayout.Button("导演"))
         {
-            this.networkAddress = this.address;
             chooseRole = Role.Drector;
             this.StartClient();
         }

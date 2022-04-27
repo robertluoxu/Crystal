@@ -14,13 +14,13 @@ public class PlayerControl : NetworkBehaviour
         mainCamera = GameObject.Find("MainCamera");
         localPlayerTransform = transform;
         localPlayerNetId = netId;
-        transform.position = new Vector3(-299.06f,69.96f,52.43f);
+        // transform.position = new Vector3(-299.06f,69.96f,52.43f);
         if (transform.tag == "Police") {
             mainCamera.SendMessage("OpenCameraDrop", false);
             mainCamera.SendMessage("SetTarget", transform);
         }
         else if(transform.tag == "Engineer"){
-            transform.position = new Vector3(-364.31f,71.05f,54.8f);
+            // transform.position = new Vector3(-364.31f,71.05f,54.8f);
             mainCamera.SendMessage("OpenCameraDrop", false);
             mainCamera.SendMessage("SetTarget", transform);
         }

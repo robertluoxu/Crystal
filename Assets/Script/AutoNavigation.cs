@@ -78,7 +78,7 @@ public class AutoNavigation : MonoBehaviour
     }
 
     void OnGUI() {
-        if (PlayerControl.localPlayerTransform.tag == "Engineer") {
+        if (PlayerControl.localPlayerTransform !=null && PlayerControl.localPlayerTransform.tag == "Engineer") {
             GUILayout.BeginArea(new Rect(Screen.width - 560, 110, 250, 150));
             if(GUILayout.Button("开启导航")){
                 this.startNav = true;
