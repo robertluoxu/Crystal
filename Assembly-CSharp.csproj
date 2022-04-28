@@ -37,42 +37,43 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Police Car &amp; Helicopter\Script\HelicopterMove.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_SoundFade.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Base.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\DocuScript.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
      <Compile Include="Assets\ChooseRole.cs" />
+     <Compile Include="Assets\Script\ScenesChange.cs" />
+     <Compile Include="Assets\Script\WeatherChange.cs" />
      <Compile Include="Assets\Script\PlayerControl.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
      <Compile Include="Assets\Script\TaskManager.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
      <Compile Include="Assets\Police Car &amp; Helicopter\Script\TransportationMove.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Debug.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Thunderstorm.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\Script\CrystalNetworkManager.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Debug.cs" />
      <Compile Include="Assets\Police Car &amp; Helicopter\Script\Boarding.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Script\AutoNavigation.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Snow.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Rain.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
      <Compile Include="Assets\Police Car &amp; Helicopter\Script\BoardingCar.cs" />
      <Compile Include="Assets\WowCamera.cs" />
-     <Compile Include="Assets\CubeScript.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Thunderstorm.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\DocuScript.cs" />
      <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Base.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Debug.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Rain.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_SoundFade.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Base.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Snow.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Debug.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Controller.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Cloudy.cs" />
      <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Clock.cs" />
      <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Sun.cs" />
-     <Compile Include="Assets\Script\WeatherChange.cs" />
+     <Compile Include="Assets\CubeScript.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Controller.cs" />
+     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Cloudy.cs" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
@@ -333,6 +334,9 @@
     </Reference>
     <Reference Include="Mono.CecilX.Pdb">
         <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.Unity">
+        <HintPath>E:\github\Crystal\Library\PackageCache\com.microsoft.maps.unity@0.11.1\Plugins\Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
         <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
@@ -712,6 +716,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>E:\github\Crystal\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Maps.Unity.Editor">
+        <HintPath>E:\github\Crystal\Library\ScriptAssemblies\Microsoft.Maps.Unity.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>E:\github\Crystal\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -724,6 +731,9 @@
     <Reference Include="UnityEngine.UI">
         <HintPath>E:\github\Crystal\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Maps.Unity.SupportingScripts">
+        <HintPath>E:\github\Crystal\Library\ScriptAssemblies\Microsoft.Maps.Unity.SupportingScripts.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
@@ -733,6 +743,10 @@
     <ProjectReference Include="kcp2k.csproj">
       <Project>{43cfc468-fd2f-feb2-666e-2e7ade8d6d89}</Project>
       <Name>kcp2k</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
+      <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
       <Project>{26be83f1-c309-6b07-6518-41b9e408beb2}</Project>
@@ -765,10 +779,6 @@
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{504e1013-3f46-402f-5c5e-08646335a492}</Project>
       <Name>Mirror.Components</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
-      <Name>Mirror.Examples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
