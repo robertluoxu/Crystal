@@ -8,6 +8,7 @@ public class CrystalNetworkManager :  NetworkManager
 {
     private Role chooseRole;
 
+
     public override void OnStartServer()
     {
         base.OnStartServer();
@@ -16,23 +17,14 @@ public class CrystalNetworkManager :  NetworkManager
 
     public override void OnClientConnect(NetworkConnection conn)
     {
-        //send the message here
-        //the message should be defined above this class in a NetworkMessage
         CharacterCreatorMessage characterMessage = new CharacterCreatorMessage
         {
             //Character info here
             role = chooseRole
         };
         NetworkClient.Send(characterMessage);
-
         base.OnClientConnect(conn);
     }
-
-    public override void OnServerAddPlayer(NetworkConnectionToClient conn)
-    {
-        base.OnServerAddPlayer(conn);
-    }
-
     void OnCreateCharacter(NetworkConnectionToClient conn, CharacterCreatorMessage message)
     {
         GameObject gameObject=null;
@@ -52,7 +44,7 @@ public class CrystalNetworkManager :  NetworkManager
         NetworkServer.AddPlayerForConnection(conn, gameObject);
     }
 
-    void OnGUI() {
+    async void OnGUI() {
       if(PlayerControl.localPlayerTransform == null){
         if (GUILayout.Button("startServer"))
         {
@@ -84,9 +76,12 @@ public class CrystalNetworkManager :  NetworkManager
           GUI.Label(new Rect(Screen.height / 2 + 270, 50, 0, 20), chooseRole.ToString(), myStyle);
       }
   }
+  public static IEnumerator WaitForSeconds(float duration, Action action = null)
+    {
+        yield return new WaitForSeconds(duration);
+        action?.Invoke();
+    }
 }
-
-
 
 public struct CharacterCreatorMessage : NetworkMessage
 {

@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Authenticators", "Mi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "where-allocations", "where-allocations.csproj", "{b889be68-1a88-0196-a291-cac66a006713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "endel.nativewebsocket", "endel.nativewebsocket.csproj", "{6685c3ec-f9bc-bdcb-2b22-66eab1de266f}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mirror.Tests", "Mirror.Tests.csproj", "{750097d1-698b-983e-240a-57d98169114e}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mirror.CodeGen", "Unity.Mirror.CodeGen.csproj", "{33e1f8ab-1c36-b89c-bb33-53aa6b3d6968}"
@@ -62,6 +64,8 @@ Global
 		{c43e49ab-acc5-e925-9c29-2652d27e6f03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b889be68-1a88-0196-a291-cac66a006713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b889be68-1a88-0196-a291-cac66a006713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6685c3ec-f9bc-bdcb-2b22-66eab1de266f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6685c3ec-f9bc-bdcb-2b22-66eab1de266f}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{750097d1-698b-983e-240a-57d98169114e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{750097d1-698b-983e-240a-57d98169114e}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33e1f8ab-1c36-b89c-bb33-53aa6b3d6968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
