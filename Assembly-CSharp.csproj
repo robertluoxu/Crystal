@@ -36,74 +36,80 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Police Car &amp; Helicopter\Script\HelicopterMove.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_SoundFade.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Base.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\DocuScript.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Third_Party\Police Car &amp; Helicopter\Script\HelicopterMove.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_SoundFade.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Base.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\DocuScript.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
      <Compile Include="Assets\ChooseRole.cs" />
      <Compile Include="Assets\Script\ScenesChange.cs" />
      <Compile Include="Assets\Script\WeatherChange.cs" />
      <Compile Include="Assets\Script\PlayerControl.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
      <Compile Include="Assets\Script\TaskManager.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
-     <Compile Include="Assets\Police Car &amp; Helicopter\Script\TransportationMove.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Debug.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Thunderstorm.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
-     <Compile Include="Assets\Script\CrystalNetworkManager.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Debug.cs" />
-     <Compile Include="Assets\Police Car &amp; Helicopter\Script\Boarding.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
-     <Compile Include="Assets\Script\AutoNavigation.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Snow.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Rain.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
-     <Compile Include="Assets\Police Car &amp; Helicopter\Script\BoardingCar.cs" />
-     <Compile Include="Assets\WowCamera.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Base.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Clock.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Sun.cs" />
-     <Compile Include="Assets\CubeScript.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Controller.cs" />
-     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-     <Compile Include="Assets\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Cloudy.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
+     <Compile Include="Assets\Third_Party\Police Car &amp; Helicopter\Script\TransportationMove.cs" />
      <Compile Include="Assets\Script\WebSocket\TaskConnection.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Debug.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Thunderstorm.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\Script\CrystalNetworkManager.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Debug.cs" />
+     <Compile Include="Assets\Third_Party\Police Car &amp; Helicopter\Script\Boarding.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Script\AutoNavigation.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Snow.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Rain.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
+     <Compile Include="Assets\Third_Party\Police Car &amp; Helicopter\Script\BoardingCar.cs" />
      <Compile Include="Assets\Script\WebSocket\TaskInfo.cs" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
-     <None Include="Assets\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
-     <None Include="Assets\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
-     <None Include="Assets\Mirror\Version.txt" />
-     <None Include="Assets\Mirror\Readme.txt" />
-     <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
-     <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
-     <None Include="Assets\Mirror\Notice.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
-     <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
-     <None Include="Assets\TimeOfDay&amp;WeatherSystem\Documents\VersionInformation.txt" />
-     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
-     <None Include="Assets\ScriptTemplates\53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
-     <None Include="Assets\POLYGON city pack\Read_me.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
-     <None Include="Assets\TimeOfDay&amp;WeatherSystem\Documents\ContactInformation.txt" />
-     <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
-     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
-     <None Include="Assets\NativeWebSocket\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <Compile Include="Assets\WowCamera.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Base.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\TimeOfDay\ToD_Clock.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Sun.cs" />
+     <Compile Include="Assets\CubeScript.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Controller.cs" />
+     <Compile Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
+     <Compile Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Code\WeatherSystem\Weather_Cloudy.cs" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\Script\ScriptTemplates\51-Mirror__Network Authenticator-NewNetworkAuthenticator.cs.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\Script\ScriptTemplates\56-Mirror__Network Discovery-NewNetworkDiscovery.cs.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\Third_Party\Mirror\Version.txt" />
+     <None Include="Assets\Third_Party\Mirror\Readme.txt" />
+     <None Include="Assets\Script\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+     <None Include="Assets\Script\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
+     <None Include="Assets\Third_Party\Mirror\Notice.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\Third_Party\Mirror\Plugins\Mono.Cecil\License.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Documents\VersionInformation.txt" />
+     <None Include="Assets\Script\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
+     <None Include="Assets\Script\ScriptTemplates\53-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+     <None Include="Assets\Third_Party\POLYGON city pack\Read_me.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\Third_Party\TimeOfDay&amp;WeatherSystem\Documents\ContactInformation.txt" />
+     <None Include="Assets\Script\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
+     <None Include="Assets\Script\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\Third_Party\NativeWebSocket\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\Third_Party\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -332,29 +338,29 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Maps.Unity">
         <HintPath>E:\github\Crystal\Library\PackageCache\com.microsoft.maps.unity@0.11.1\Plugins\Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Tests\Common\Castle.Core.dll</HintPath>
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="NSubstitute">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Tests\Common\NSubstitute.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll</HintPath>
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\NSubstitute.dll</HintPath>
     </Reference>
     <Reference Include="Mono.CecilX.Mdb">
-        <HintPath>E:\github\Crystal\Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -739,53 +745,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Mirror.csproj">
-      <Project>{97c2a06e-cc0f-2678-27d9-ccceb321caee}</Project>
-      <Name>Mirror</Name>
-    </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{43cfc468-fd2f-feb2-666e-2e7ade8d6d89}</Project>
-      <Name>kcp2k</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
-      <Name>Mirror.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{26be83f1-c309-6b07-6518-41b9e408beb2}</Project>
-      <Name>Mirror.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
-      <Project>{feff8899-3066-a63c-7a94-72b6e9637197}</Project>
-      <Name>WeaverTestExtraAssembly</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{1f3f6d75-0180-afd9-8342-6c1dae3b3007}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
       <Project>{c43e49ab-acc5-e925-9c29-2652d27e6f03}</Project>
       <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{543db7e7-61b5-44e8-3f99-922201994f9d}</Project>
-      <Name>Telepathy</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{b889be68-1a88-0196-a291-cac66a006713}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{7fb4b118-1623-dbfc-46de-1a131e82985f}</Project>
-      <Name>SimpleWebTransport</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
       <Project>{504e1013-3f46-402f-5c5e-08646335a492}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
+      <Name>Mirror.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{1f3f6d75-0180-afd9-8342-6c1dae3b3007}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{b889be68-1a88-0196-a291-cac66a006713}</Project>
+      <Name>where-allocations</Name>
+    </ProjectReference>
     <ProjectReference Include="endel.nativewebsocket.csproj">
       <Project>{6685c3ec-f9bc-bdcb-2b22-66eab1de266f}</Project>
       <Name>endel.nativewebsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{543db7e7-61b5-44e8-3f99-922201994f9d}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{97c2a06e-cc0f-2678-27d9-ccceb321caee}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
+    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
+      <Project>{feff8899-3066-a63c-7a94-72b6e9637197}</Project>
+      <Name>WeaverTestExtraAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{26be83f1-c309-6b07-6518-41b9e408beb2}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{43cfc468-fd2f-feb2-666e-2e7ade8d6d89}</Project>
+      <Name>kcp2k</Name>
+    </ProjectReference>
+    <ProjectReference Include="SimpleWebTransport.csproj">
+      <Project>{7fb4b118-1623-dbfc-46de-1a131e82985f}</Project>
+      <Name>SimpleWebTransport</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -36,14 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mirror\Tests\Common\ClientSceneTests_RegisterPrefabBase.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\MirrorPlayModeTest.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\MirrorTest.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\MemoryTransport.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\MirrorEditModeTest.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\ClientSceneTestsBase.cs" />
-     <Compile Include="Assets\Mirror\Tests\Common\FakeNetworkConnection.cs" />
-     <None Include="Assets\Mirror\Tests\Common\Mirror.Tests.Common.asmdef" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\Castle.Core.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\NSubstitute.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
+    <Analyzer Include="E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll" />
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\ClientSceneTests_RegisterPrefabBase.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\MirrorPlayModeTest.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\MirrorTest.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\MemoryTransport.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\MirrorEditModeTest.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\ClientSceneTestsBase.cs" />
+     <Compile Include="Assets\Third_Party\Mirror\Tests\Common\FakeNetworkConnection.cs" />
+     <None Include="Assets\Third_Party\Mirror\Tests\Common\Mirror.Tests.Common.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
