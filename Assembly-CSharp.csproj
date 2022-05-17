@@ -338,6 +338,12 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Maps.Unity">
         <HintPath>E:\github\Crystal\Library\PackageCache\com.microsoft.maps.unity@0.11.1\Plugins\Microsoft.Maps.Unity.dll</HintPath>
     </Reference>
@@ -350,17 +356,11 @@
     <Reference Include="NSubstitute">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\NSubstitute.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    <Reference Include="Mono.CecilX.Mdb">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -745,53 +745,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{c43e49ab-acc5-e925-9c29-2652d27e6f03}</Project>
-      <Name>Mirror.Authenticators</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{504e1013-3f46-402f-5c5e-08646335a492}</Project>
-      <Name>Mirror.Components</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
-      <Name>Mirror.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{1f3f6d75-0180-afd9-8342-6c1dae3b3007}</Project>
-      <Name>Mirror.CompilerSymbols</Name>
-    </ProjectReference>
-    <ProjectReference Include="where-allocations.csproj">
-      <Project>{b889be68-1a88-0196-a291-cac66a006713}</Project>
-      <Name>where-allocations</Name>
-    </ProjectReference>
     <ProjectReference Include="endel.nativewebsocket.csproj">
       <Project>{6685c3ec-f9bc-bdcb-2b22-66eab1de266f}</Project>
       <Name>endel.nativewebsocket</Name>
-    </ProjectReference>
-    <ProjectReference Include="Telepathy.csproj">
-      <Project>{543db7e7-61b5-44e8-3f99-922201994f9d}</Project>
-      <Name>Telepathy</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
       <Project>{97c2a06e-cc0f-2678-27d9-ccceb321caee}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
-    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
-      <Project>{feff8899-3066-a63c-7a94-72b6e9637197}</Project>
-      <Name>WeaverTestExtraAssembly</Name>
+    <ProjectReference Include="kcp2k.csproj">
+      <Project>{43cfc468-fd2f-feb2-666e-2e7ade8d6d89}</Project>
+      <Name>kcp2k</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{24cff1ee-e8a4-08ea-44a2-f7c979852109}</Project>
+      <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
       <Project>{26be83f1-c309-6b07-6518-41b9e408beb2}</Project>
       <Name>Mirror.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="kcp2k.csproj">
-      <Project>{43cfc468-fd2f-feb2-666e-2e7ade8d6d89}</Project>
-      <Name>kcp2k</Name>
+    <ProjectReference Include="WeaverTestExtraAssembly.csproj">
+      <Project>{feff8899-3066-a63c-7a94-72b6e9637197}</Project>
+      <Name>WeaverTestExtraAssembly</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.CompilerSymbols.csproj">
+      <Project>{1f3f6d75-0180-afd9-8342-6c1dae3b3007}</Project>
+      <Name>Mirror.CompilerSymbols</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Authenticators.csproj">
+      <Project>{c43e49ab-acc5-e925-9c29-2652d27e6f03}</Project>
+      <Name>Mirror.Authenticators</Name>
+    </ProjectReference>
+    <ProjectReference Include="Telepathy.csproj">
+      <Project>{543db7e7-61b5-44e8-3f99-922201994f9d}</Project>
+      <Name>Telepathy</Name>
+    </ProjectReference>
+    <ProjectReference Include="where-allocations.csproj">
+      <Project>{b889be68-1a88-0196-a291-cac66a006713}</Project>
+      <Name>where-allocations</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
       <Project>{7fb4b118-1623-dbfc-46de-1a131e82985f}</Project>
       <Name>SimpleWebTransport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{504e1013-3f46-402f-5c5e-08646335a492}</Project>
+      <Name>Mirror.Components</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -15,6 +15,12 @@ public class CrystalNetworkManager :  NetworkManager
         NetworkServer.RegisterHandler<CharacterCreatorMessage>(OnCreateCharacter);
     }
 
+    public override void OnStopClient(){
+        if (TaskManager.socketId != null) {
+            TaskConnection.GetInstance().OnApplicationQuit();
+        }
+    }
+
     public override void OnClientConnect(NetworkConnection conn)
     {
         CharacterCreatorMessage characterMessage = new CharacterCreatorMessage

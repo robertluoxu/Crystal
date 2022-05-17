@@ -301,8 +301,14 @@
     <Reference Include="UnityEditor.UWP.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>E:\github\Crystal\Library\PackageCache\com.unity.collab-proxy@1.15.13\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Maps.Unity">
         <HintPath>E:\github\Crystal\Library\PackageCache\com.microsoft.maps.unity@0.11.1\Plugins\Microsoft.Maps.Unity.dll</HintPath>
@@ -313,29 +319,23 @@
     <Reference Include="unityplastic">
         <HintPath>E:\github\Crystal\Library\PackageCache\com.unity.collab-proxy@1.15.13\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>E:\github\Crystal\Library\PackageCache\com.unity.collab-proxy@1.15.13\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.CecilX">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\Castle.Core.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>E:\github\Crystal\Library\PackageCache\com.unity.collab-proxy@1.15.13\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="NSubstitute">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\NSubstitute.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Mdb">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions">
         <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Tests\Common\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.CecilX.Pdb">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.CecilX.Rocks">
-        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll</HintPath>
+    <Reference Include="Mono.CecilX.Mdb">
+        <HintPath>E:\github\Crystal\Assets\Third_Party\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

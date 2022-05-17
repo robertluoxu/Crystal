@@ -33,11 +33,6 @@ public class TaskManager : NetworkBehaviour
         TaskConnection.GetInstance().OnApplicationQuit();
     }
 
-    public override void OnStopClient() {
-        if (socketId != null) {
-            TaskConnection.GetInstance().OnApplicationQuit();
-        }
-    }
 
     public override void OnStartLocalPlayer() {
         if (transform.tag == "Police") {
